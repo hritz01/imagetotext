@@ -11,7 +11,7 @@ import textwrap
 genai.configure(api_key = os.getenv("GOOGLE-API-KEY"))
 
 # Page for image to text
-st.header("Gemini Image to Text Application")
+st.header("🖼️ Gemini Image to Text Application")
 input = st.text_input("Input prompt: ",key= "input")
 uploaded_img = st.file_uploader("Upload the image...", 
                                 type = ["jpg","png","jpeg"])
